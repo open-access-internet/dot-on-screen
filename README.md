@@ -1,51 +1,42 @@
-# dot on screen
+# Moving Point Program
 
-This program creates a point on the screen that continuously moves, demonstrating basic animation and motion. It's a simple example for anyone looking to explore graphical interfaces and basic animation in their code.
+This program creates a point on the screen that continuously moves, demonstrating basic animation and motion. It's a simple example for anyone looking to explore graphical interfaces and basic animation in C++.
 
 ## Features
 - Displays a point that moves continuously across the screen.
 - Simple graphical animation to demonstrate movement.
-- Great starting point for exploring basic animation techniques.
+- A lightweight executable (.exe) that works out of the box on Windows.
 
 ## Requirements
-- Windows (since you'll be using the `.msi` installer)
-- No need for additional libraries or installation if you use the `.msi` package.
+- Windows operating system (since it’s packaged as an `.exe` file).
+- No need for additional dependencies if you use the `.msi` installer.
 
 ## Installation
 
 ### Option 1: Using the .MSI Installer
-1. Go to the [Releases page](https://github.com/your-username/moving-point-program/releases) of this repository.
-2. Download the latest `.msi` file.
+1. Go to the [Releases page](https://github.com/open-access-internet/dot-on-screen/releases) of this repository.
+2. Download the latest **`.msi`** installer.
 3. Run the `.msi` installer and follow the on-screen instructions.
-4. Once installed, you can run the program directly from your desktop or Start Menu.
+4. Once installed, you can launch the program directly from the Start Menu or from a desktop shortcut.
 
-### Option 2: Manual Installation (For developers or advanced users)
+### Option 2: Manual Installation (For Developers)
+If you want to compile the program yourself or modify the source code, follow these steps:
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/moving-point-program.git
+   git clone https://github.com/open-access-internet/dot-on-screen.git 
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd moving-point-program
-   ```
-
-3. Install the required dependencies (if any):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the program:
-   ```bash
-   python main.py
-   ```
+2. Open the project in your preferred C++ IDE (e.g., Visual Studio).
+3. Build the project to generate the `.exe` file.
+4. Once built, run the compiled `.exe` to see the moving point animation.
 
 ## Usage
 
-Once installed, simply launch the program from the Start Menu (or your desktop shortcut if you used the `.msi` installer). The point will begin moving continuously across the screen.
+After installing via the `.msi` installer, you can launch the program from the Start Menu or your desktop. The program will display a point that moves continuously across the screen.
 
 ## Customization
 
-Feel free to adjust the speed, size, or direction of the point to suit your needs. You can also modify the program to create more complex animations.
+Feel free to modify the source code to adjust the speed, size, or direction of the point. You can also experiment with more advanced animation techniques.
 
 ## Contributing
 
